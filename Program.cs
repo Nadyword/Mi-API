@@ -1,7 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
-
 ConfigurationManager config = builder.Configuration;
-
 builder.Services.AddControllers();
 
 var app = builder.Build();
